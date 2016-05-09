@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+var fetch = require('./')
+fetch(function(error, results) {
+  if (error) {
+    process.stderr.write('' + error + '\n') }
+  else {
+    results.forEach(function(result) {
+      process.stdout.write(result.number + '\t' + result.title + '\n') }) } })

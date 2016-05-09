@@ -1,0 +1,9 @@
+{
+  "name": "fetch-rfc-index",
+  "description": "fetch the list of RFCs from rfc-editor.org",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "bin": "./bin",
+  "license": "MIT",
+  "repository": "kemitchell/fetch-rfc-index.js"
+}
